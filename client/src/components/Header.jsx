@@ -13,7 +13,7 @@ export default function Header() {
         className="self-center whitespace-nowrap text-sm sm:text-xl font font-semibold dark:text-white"
       >
         <span className="px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white">
-          Peleg's
+          Sahand's
         </span>
         <span className="ml-2">Blog</span>
       </Link>
@@ -33,7 +33,11 @@ export default function Header() {
           <FaMoon />
         </Button>
         <Link to="/sign-in">
-          <Button className="hidden sm:inline" gradientDuoTone="purpleToBlue">
+          <Button
+            className="hidden sm:inline"
+            gradientDuoTone="purpleToBlue"
+            outline
+          >
             Sign in
           </Button>
         </Link>
